@@ -98,22 +98,8 @@ form {
     gap: 2rem;
 }
 
-.input-wrapper {
-    position: relative;
-    display: inline-block;
-}
-
-.input-wrapper::before {
-    content: ""; /* Isso é necessário para criar o pseudo-elemento */
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%);
-    /* Ajuste o ícone conforme necessário */
-    background-image: url('./img/at.png');
-    background-size: 20px 20px; /* Ajuste o tamanho do ícone */
-    width: 20px;
-    height: 20px;
+#name {
+    background: url(./img/person.png) no-repeat scroll 1.4rem 1.2rem;
 }
 
 .input-wrapper input, .input-wrapper textarea {
